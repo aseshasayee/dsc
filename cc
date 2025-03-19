@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Solution {
+public class cc_assignment {
     public static String rearrangeWordsByVowelCount(String input) {
         String[] words = input.split(" ");
         Arrays.sort(words, Comparator.comparingInt(word -> {
